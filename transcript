@@ -1,0 +1,40 @@
+# vsim -c tb_processor -voptargs="+acc" -do "run -all" 
+# Start time: 21:23:39 on Dec 11,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# //  Questa Sim-64
+# //  Version 10.6c win64 Jul 26 2017
+# //
+# //  Copyright 1991-2017 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.tb_processor(fast)
+# Loading work.processor(fast)
+# Loading work.pc(fast)
+# Loading work.inst_mem(fast)
+# Loading work.inst_dec(fast)
+# Loading work.reg_file(fast)
+# Loading work.controller(fast)
+# Loading work.alu(fast)
+# Loading work.immediate_generator(fast)
+# Loading work.multiplexer_b(fast)
+# Loading work.data_mem(fast)
+# Loading work.multiplexer_writeback(fast)
+# Loading work.multiplexer_a(fast)
+# Loading work.multiplexer_pc(fast)
+# Loading work.branch_cond(fast)
+# Loading work.CSR_register(fast)
+# run -all
+# Time: 0 | x3: 00000000000000000000000000000010 | x4: 00000000000000000000000000000101 | x2: 00000000000000000000000000000010
+# ** Note: $finish    : ./tb_processor.sv(28)
+#    Time: 5010 ns  Iteration: 0  Instance: /tb_processor
+# End time: 21:23:42 on Dec 11,2024, Elapsed time: 0:00:03
+# Errors: 0, Warnings: 0
